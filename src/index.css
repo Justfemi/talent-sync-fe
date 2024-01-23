@@ -12,9 +12,10 @@ code {
     monospace;
 } */
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';

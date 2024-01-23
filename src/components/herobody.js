@@ -1,8 +1,15 @@
 import React from 'react'
-import videoCall from '../assets/right-img.png';
+// import videoCall from '../assets/right-img.png';
 import aibot from '../assets/bot.svg';
 import avatargroup from '../assets/avatargroup.svg';
 import stars from '../assets/stars.svg';
+import image1 from '../assets/image1.svg';
+import image2 from '../assets/image2.svg';
+import image3 from '../assets/image3.svg';
+import image4 from '../assets/image4.svg';
+import image5 from '../assets/image5.svg';
+import image6 from '../assets/image6.svg';
+import buttons from '../assets/buttons.svg';
 
 const Herobody = () => {
   return (
@@ -12,7 +19,7 @@ const Herobody = () => {
           <h2 className="text-gray-800 font-inter text-4xl font-semibold mb-[12px]">
             Uniting the world, <br /> one video call at a time
           </h2>
-          <p className="text-gray-500 font-inter text-lg font-normal w-[80%]">
+          <p className="text-gray-500 font-inter text-lg font-normal w-[70%]">
             Experience the future of communication with ClearLink – 
             where crystal-clear video conferencing meets unparalleled simplicity.
           </p>
@@ -41,20 +48,57 @@ const Herobody = () => {
                 src={stars}
                 alt="rating"
               />
-              <h5>5.0</h5>
+              <h5 className="text-gray-700 font-inter text-md font-semibold">5.0</h5>
             </div>
             <div>
-              <p>from 3,000+ reviews</p>
+              <p className="text-gray-600 font-inter text-md font-medium">from 3,000+ reviews</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="w-[600px] h-[490px]">
+      <div className="w-[550px] rounded-lg border border-blue-200 bg-blue-50 shadow-3xl p-8">
+        <div className="grid grid-cols-3 gap-4">
+          <img 
+            src={image1}
+            alt='video-call'
+            className="w-full h-full object-cover"
+          />
+
+          <img 
+            src={image2}
+            alt='video-call'
+            className="w-full h-full object-cover"
+          />
+
+          <img 
+            src={image3}
+            alt='video-call'
+            className="w-full h-full object-cover"
+          />
+
+          <img 
+            src={image4}
+            alt='video-call'
+            className="w-full h-full object-cover"
+          />
+
+          <img 
+            src={image5}
+            alt='video-call'
+            className="w-full h-full object-cover"
+          />
+
+          <img 
+            src={image6}
+            alt='video-call'
+            className="w-full h-full object-cover"
+          />
+        </div>
         <img 
-          src={videoCall}
-          alt='video-call'
-          className="w-full h-full"
+          src={buttons}
+          alt="control-btns"
+          className="mt-[40px] w-[250px] cursor-pointer mx-auto"
         />
       </div>
     </div>
