@@ -5,7 +5,7 @@ import Herobody from './herobody';
 
 const Hero = () => {
   return (
-    <div className="relative h-[860px]">
+    <div className="relative h-[750px]">
       <img 
         src={herobg}
         alt='hero-bg'
@@ -20,3 +20,5 @@ const Hero = () => {
 }
 
 export default Hero
+
+// border border-solid border-red-500
