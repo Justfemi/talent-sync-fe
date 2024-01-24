@@ -17,7 +17,7 @@ const Whychoose = () => {
       </p>
 
       <img 
-        className="absolute right-[330px] bottom-[-635px] w-[200px]"
+        className="absolute right-[350px] bottom-[-650px] w-[200px]"
         src={arrow}
         alt="curly arrow"
       />
