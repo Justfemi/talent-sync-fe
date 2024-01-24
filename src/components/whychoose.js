@@ -8,7 +8,7 @@ import arrow from '../assets/arrow.svg';
 
 const Whychoose = () => {
   return (
-    <section className="realtive w-[80%] mx-auto py-[96px]">
+    <section className="realtive w-[85%] mx-auto py-[96px]">
       <p className="text-blue-700 font-inter text-xs font-semibold">The ClearLink Advantage</p>
       <h2 className="text-gray-800 font-inter text-3xl font-semibold mt-[12px] mb-[20px]">Why choose ClearLink?</h2>
       <p className="text-gray-500 font-inter text-sm font-normal">
@@ -17,7 +17,7 @@ const Whychoose = () => {
       </p>
 
       <img 
-        className="absolute right-[310px] bottom-[-600px] w-[200px]"
+        className="absolute right-[310px] bottom-[-625px] w-[200px]"
         src={arrow}
         alt="curly arrow"
       />

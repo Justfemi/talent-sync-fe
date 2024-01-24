@@ -10,7 +10,7 @@ const Users = () => {
   return (
     <section className="text-center py-[96px]">
       <p className="text-gray-600 text-center font-inter text-xl font-medium">Join 1,500+ companies already video conferencing the ClearLink way</p>
-      <div className="flex items-center w-[80%] justify-between mx-auto mt-[48px]">
+      <div className="flex items-center w-[85%] justify-between mx-auto mt-[48px]">
         <img
           src={shopify}
           alt='users-companies'

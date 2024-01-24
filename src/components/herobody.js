@@ -13,7 +13,7 @@ import buttons from '../assets/buttons.svg';
 
 const Herobody = () => {
   return (
-    <div className="flex items-center justify-between w-[80%] mx-auto mt-[160px]">
+    <div className="flex items-center justify-between w-[85%] mx-auto mt-[160px]">
       <div>
         <div>
           <h2 className="text-gray-800 font-inter text-4xl font-semibold mb-[12px]">

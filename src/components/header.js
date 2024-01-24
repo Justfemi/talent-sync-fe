@@ -5,7 +5,7 @@ import dropdown from '../assets/dropdown.svg';
 const Header = () => {
   return (
     <div 
-      className="w-[85%] mx-auto rounded-full border-2 border-gray-300 bg-gray-100 mt-[40px] flex items-center justify-between py-[16px] px-[32px]"
+      className="w-[87%] mx-auto rounded-full border-2 border-gray-300 bg-gray-100 mt-[40px] flex items-center justify-between py-[16px] px-[32px]"
     >
       <div className="flex items-center">
         <img 
